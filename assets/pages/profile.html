@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../script/main.js" defer></script>
+    <script type="module" src="../script/components/myInfo.js " defer></script>
+    <title>Create Account | Butter Film</title>
+  </head>
+  <body>
+    <div class="container butterFilm">
+      <header class="headerBar"></header>
+
+      <main class="page profile">
+        <!-- Account Information -->
+        <section class="accountInformation">
+          <h1 class="profileTitle title">Account Information</h1>
+          <form method="get">
+            <input
+              class="formInput username"
+              type="text"
+              placeholder="username"
+              disabled
+            />
+            <input
+              class="formInput userEmail"
+              type="email"
+              placeholder="user@Email.address"
+              disabled
+            />
+          </form>
+        </section>
+
+        <!-- Chage Password -->
+        <section class="changePassword">
+          <h1 class="profileTitle title">Change Password</h1>
+          <form method="post">
+            <input
+              class="formInput currentPassword"
+              type="password"
+              placeholder="Current Password"
+            />
+            <input
+              class="formInput newPassword"
+              type="password"
+              placeholder="New Password"
+            />
+          </form>
+          <button class="button saveButton">SAVE</button>
+        </section>
+
+        <!-- Delete Account -->
+        <section class="deleteAccount">
+          <h1 class="profileTitle title">Delete Account</h1>
+          <strong>
+            &nbsp; This is a permanent action and it can't be undone.<br />
+            After you delete your account no one will be able to recover it.
+          </strong>
+          <button class="button deleteButton">DELETE ACCOUNT</button>
+        </section>
+      </main>
+
+      <footer class="underBar"></footer>
+    </div>
+  </body>
+</html>

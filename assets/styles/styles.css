@@ -1,0 +1,17 @@
+@import './reset.css';
+@import './variable.css';
+@import '../fonts/font.css';
+
+/* Screens */
+@import './screens/index.css';
+@import './screens/home.css';
+@import './screens/movieIntroduction.css';
+@import './screens/booking.css';
+@import './screens/profile.css';
+@import './screens/myMovieTickets.css';
+@import './screens/notification.css';
+@import './screens/review.css';
+
+/* Components */
+@import './components/navigation.css';
+@import './components/mainLogo.css';

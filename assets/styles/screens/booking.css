@@ -1,0 +1,97 @@
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.booking .title {
+  margin-bottom: 30px;
+}
+
+/* Booking seats */
+.booking .seats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.booking .seats .row {
+  display: flex;
+  gap: 5px;
+}
+
+.booking .seats .row .seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 28px;
+  border-radius: 10px;
+  color: var(--yellow);
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'SanFrancisco';
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+/* Booking notice */
+.booking .notice {
+  font-size: 20px;
+}
+
+.booking .notice .calc {
+  color: var(--purple);
+  font-size: 25px;
+}
+
+/* Booking seatNotice */
+.booking .seatNotice {
+  display: flex;
+  font-family: 'SanFrancisco';
+  gap: 15px;
+}
+
+.booking .seatNotice .seatElements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.booking .seatNotice .seatElements .seatElement {
+  width: 20px;
+  height: 15px;
+  border-radius: 8px;
+}
+
+.available {
+  background-color: var(--purple);
+}
+
+.selected {
+  color: var(--purple);
+  background-color: white !important;
+}
+
+.occupied {
+  background-color: var(--darkGray) !important;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+/* Button */
+.registerButton,
+.cancelButton {
+  font-size: 23px !important;
+  font-family: 'BebasNeue';
+}
+
+.cancelButton {
+  background-color: var(--red) !important;
+}

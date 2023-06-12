@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../script/main.js" defer></script>
+    <title>Create Account | Butter Film</title>
+  </head>
+  <body>
+    <div class="container mainPageHTML" id="signUpPage">
+      <header class="mainLogo"></header>
+
+      <main>
+        <form class="inputForm">
+          <input
+            id="signUpMemberName"
+            name="username"
+            placeholder="USERNAME"
+            type="username"
+            class="input"
+          />
+          <input
+            id="signUpMemberID"
+            name="email"
+            placeholder="EMAIL"
+            type="email"
+            class="input"
+          />
+          <input
+            id="signUpMemberPassword"
+            name="password"
+            placeholder="PASSWORD"
+            type="password"
+            minlength="10"
+            maxlength="20"
+          />
+          <div class="buttons">
+            <button class="button createButton">Create</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

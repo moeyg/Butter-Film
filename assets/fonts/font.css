@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'SanFrancisco';
+  src: url('./sanfranciscodisplay-regular-webfont.woff');
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('./BebasNeue-Regular.woff');
+}

@@ -1,0 +1,85 @@
+/* movieInformation */
+.movieInformation .movieTitle.title {
+  font-size: 45px;
+}
+
+.movieInformation .movieTitle .release {
+  font-size: 15px;
+}
+
+.movieInformation .movieContents {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  margin: 20px 0 25px;
+}
+
+/* movieContents */
+.moviePoster {
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.movieInfos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.movieInfos .movieInfo {
+  font-size: 1.4em;
+}
+
+.movieInfos .movieInfo strong {
+  color: var(--purple);
+}
+
+.movieInfos .summaries {
+  margin: 8px 0;
+  width: 190px;
+  height: 130px;
+  font-size: 18px;
+  font-family: 'SanFrancisco';
+}
+
+.movieInfos .chooseSeatButton {
+  align-self: flex-end;
+  width: 120px;
+  color: var(--yellow);
+  font-size: 18px;
+  font-family: 'BebasNeue';
+  background-color: black;
+}
+
+/* reviews */
+.reviews {
+  color: var(--yellow);
+  background-color: var(--darkGray);
+}
+
+.reviews .reviewList {
+  margin-top: 15px;
+  font-family: 'SanFrancisco';
+}
+
+/* review */
+.review {
+  margin-bottom: 30px;
+}
+.review .reviewer .reviewerName {
+  margin-right: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.review .reviewer .reviewerRating {
+  color: white;
+}
+.review .reviewContents {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  word-break: break-all;
+}

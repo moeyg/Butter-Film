@@ -1,0 +1,21 @@
+.notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.notification .notis {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.notification .notis .noti {
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'SanFrancisco';
+  line-height: 23px;
+  background-color: white;
+}

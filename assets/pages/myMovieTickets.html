@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../script/main.js" defer></script>
+    <title>Notification | Butter Film</title>
+  </head>
+  <body>
+    <div class="container butterFilm">
+      <header class="headerBar"></header>
+
+      <main class="page myMovieTickets">
+        <h1 class="title">My Movie Tickets</h1>
+        <!-- 예매된 영화 티켓을 동적으로 생성할 컨테이너 -->
+        <div class="ticketContainer"></div>
+      </main>
+
+      <footer class="underBar"></footer>
+    </div>
+
+    <script type="module">
+      import MovieTicket from 'http://localhost:5500/assets/script/components/movieTickets.js';
+
+      // 페이지가 로드될 때 예매된 영화 티켓을 가져와서 생성
+      window.addEventListener('load', () => {
+        MovieTicket.getMyMovieTickets();
+      });
+    </script>
+  </body>
+</html>

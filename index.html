@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/images/icons/favicon.ico" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./assets/script/main.js" defer></script>
+    <title>Butter Film</title>
+  </head>
+  <body>
+    <div class="container mainPageHTML"id = "logInPage">
+      <header class="mainLogo"></header>
+
+      <main>
+        <form method="get" class="inputForm">
+          <input
+            id="logInMemberID"
+            name="email"
+            placeholder="EMAIL"
+            type="email"
+            class="input"
+          />
+          <input
+            id="logInmemberPassword"
+            name="password"
+            placeholder="PASSWORD"
+            type="password"
+            minlength="10"
+            maxlength="20"
+          />
+          <!-- Find password page link -->
+          <a class="passwordResetLink" href="./assets/pages/passwordReset.html"
+            >Forget your password?</a
+          >
+          <!-- Buttons -->
+          <div class="buttons">
+            <button class="button logInButton">Log In</button>
+            <a class="button signUpButton" href="./assets/pages/signUp.html"
+              >Sign Up</a
+            >
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
