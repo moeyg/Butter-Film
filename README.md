@@ -40,11 +40,11 @@ FE는 JavaScript로 Class 컴포넌트화를 도전해 보기 위해 JS로 구�
 
 |                                Sign Up                                 |                                 Home                                 |
 | :--------------------------------------------------------------------: | :------------------------------------------------------------------: |
-| <img src="assets/images/preview/signUp.png" width="200" height="400"/> | <img src="assets/images/preview/home.png" width="200" height="400"/> |
+| <img src="assets/images/preview/signUp.png" width="200" height="400"/> | <img src="assets/images/preview/home.gif" width="200" height="400"/> |
 
 |                                 Booking                                 |                                Choose Seats                                 |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
-| <img src="assets/images/preview/booking.png" width="200" height="400"/> | <img src="assets/images/preview/chooseSeats.png" width="200" height="400"/> |
+| <img src="assets/images/preview/booking.gif" width="200" height="400"/> | <img src="assets/images/preview/chooseSeats.gif" width="200" height="400"/> |
 
 |                                My Movie Tickets                                |                                 Review                                 |
 | :----------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
