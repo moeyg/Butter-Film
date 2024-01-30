@@ -39,7 +39,7 @@
 3. 웹 브라우저에서 `http://localhost:포트번호` 로 접속합니다.
 4. 회원가입 후 로그인하여 영화 정보를 확인하고 예매할 수 있습니다.
 
-> ⚠️ 프오젝트에서는 `bcrypt` 를 사용하여 비밀번호를 해싱하였습니다. <br>
+> ⚠️ 프로젝트에서는 `bcrypt` 를 사용하여 비밀번호를 해싱하였습니다. <br>
 > 일부 Mackbook의 M 시리즈에서는 작동하지 않을 수 있습니다. <br>
 > 따라서 `bcrypt` grade down을 고려할 가능성이 존재합니다.
 > 자세한 내용은 [bcrypt grade down](https://www.npmjs.com/package/bcrypt#versions)를 참조하세요.
