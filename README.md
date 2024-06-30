@@ -13,15 +13,18 @@
 ## Stack and Tools
 
 ### Frontend
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### Backend
+
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ### Database
+
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 <br>
@@ -35,9 +38,8 @@
 ## How to run and Test in local environment
 
 1. 깃 클론 합니다.
-2. `server.js` 파일을 실행합니다.
-3. 웹 브라우저에서 `http://localhost:포트번호` 로 접속합니다.
-4. 회원가입 후 로그인하여 영화 정보를 확인하고 예매할 수 있습니다.
+2. 터미널에서 `npm start` 실행합니다.
+3. 회원가입 후 로그인하여 영화 정보를 확인하고 예매할 수 있습니다.
 
 > ⚠️ 프로젝트에서는 `bcrypt` 를 사용하여 비밀번호를 해싱하였습니다. <br>
 > 일부 Mackbook의 M 시리즈에서는 작동하지 않을 수 있습니다. <br>
